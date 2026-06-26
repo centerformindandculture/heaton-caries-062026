@@ -8,6 +8,7 @@ That goal of this document is to describe the architecture of this agent-based m
 ## Table of Contents
 
 - [Installation](#installation)
+- [Code Overview](#code-overview)
 - [Quick Usage](#quick-usage)
 - [Current Model](#current-model)
 - [Output Details](#output-details)
@@ -21,6 +22,14 @@ A conda environment is contained in `environment.yml`. First install a version o
 Then to install, use command the Anaconda prompt to navigate to the project directory and use command `conda env create -f environment.yml`
 
 Then activate the environment with `conda activate caries-model-paper-repo-062026`
+
+----
+
+## Code overview
+
+The model source code is in `src` and uses the agentpy library, which has binaries loaded into src/tools. See src/tools/LICENSE/LICENSE for agentpy licensing details.
+
+Jupyter notebooks for examples of running the model and analyzing results are included at the root directory.
 
 ----
 
@@ -171,4 +180,3 @@ When a 'CariesV2' model is run, it will return a [DataDict](src/tools/DataDict.p
 
 
 
-# heaton-caries-062026

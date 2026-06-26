@@ -78,9 +78,6 @@ num_steps = <number_of_sample_steps>
 range = Range(vmin=<start>, vmax=<end>)
 exp_parameters[<parameter_you_wish_to_sample>] = range
 ```
-At the moment, there is no implementation for choosing a step size -- instead, set the appropriate number of sample steps using the equation:
-$$\texttt{step\_size}=\frac{\texttt{end}-\texttt{start}}{\texttt{num\_steps}-1}$$
-The ''-1'' in the denominator comes from the fact that we index starting at 0, i.e. we are sampling the start and end inclusively. 
 
 The Sample class is set to sample uniformly. In the future, different sampling methods can be added by modifying the Sample class (in fact, the original implementation of [Sample](https://agentpy.readthedocs.io/en/stable/reference_sample.html) has a Saltelli sampling scheme).
 

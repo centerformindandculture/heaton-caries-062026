@@ -27,7 +27,7 @@ Then activate the environment with `conda activate caries-model-paper-repo-06202
 
 ## Code overview
 
-The model source code is in `src` and uses the agentpy library, which has binaries loaded into src/tools. See src/tools/LICENSE/LICENSE for agentpy licensing details.
+The model source code is in `src` and uses the agentpy library, which has binaries loaded into src/tools. See src/tools/LICENSE/LICENSE for agentpy licensing details, which is not covered by the same license as the rest of this repo.
 
 Jupyter notebooks for examples of running the model and analyzing results are included at the root directory.
 
